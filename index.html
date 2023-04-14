@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background changer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="icon">
+        <button id="red" style="background: red;"></button>
+        <button id="blue" style="background: blue;"></button>
+        <button id="yellow" style="background: yellow;"></button>
+        <button id="green" style="background: green;"></button>
+    </div>
+    <div id="container">
+        <div class="img">
+            <img src="../test/icon3.png">
+        </div>
+        <div class="info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod itaque laborum corrupti inventore officia provident deleniti vitae accusantium harum assumenda asperiores nihil facere laboriosam obcaecati non possimus aspernatur odit, cum dolor earum eum exercitationem voluptatum! Illo nobis molestias fuga. Non nostrum blanditiis fugit animi repellat alias velit voluptates odio, error fuga consequuntur hic nam quasi accusantium. Minima molestiae perferendis, qui, quasi totam soluta nostrum vitae inventore voluptatem natus dolores similique eligendi nisi saepe temporibus ut perspiciatis. Dignissimos rerum excepturi ut tempora dolor dolorem? Obcaecati cum repellendus porro, molestias temporibus veritatis totam quae aliquam? Vero quaerat quas ipsam ea aspernatur tempora eos eum sapiente nesciunt quasi, quos saepe amet harum ducimus ipsum, sit ad error maiores libero. Porro, assumenda.
+        </div>
+    </div>
+
+
+
+
+    <script>
+        document.getElementById("red").addEventListener('click',function(){
+            document.getElementById("container").style.background="red";
+            document.getElementById("container").style.color="#fff";
+
+        });
+
+        document.getElementById("blue").addEventListener('click',function(){
+            document.getElementById("container").style.background="blue";
+            document.getElementById("container").style.color="#fff";
+
+        });
+
+        document.getElementById("yellow").addEventListener('click',function(){
+            document.getElementById("container").style.background="yellow";
+            document.getElementById("container").style.color="#000";
+
+        });
+
+        document.getElementById("green").addEventListener('click',function(){
+            document.getElementById("container").style.background="green";
+            document.getElementById("container").style.color="#fff";
+
+        });
+        
+    </script>
+    
+</body>
+</html>

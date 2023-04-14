@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 32px;
+    font-size: 44px;
+}
+.icon{
+    text-align: right;
+    margin-bottom: 32px;
+}
+button{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    outline: unset;
+    border: unset;
+    cursor: pointer;
+}
+.img{
+    text-align: center;
+}
+
+img{
+    width: 50%;
+}
